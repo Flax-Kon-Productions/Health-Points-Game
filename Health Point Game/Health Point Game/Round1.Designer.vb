@@ -74,6 +74,8 @@ Partial Class Round1
         Me.AddScore3 = New System.Windows.Forms.Button()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.ValuePercent = New System.Windows.Forms.Label()
+        Me.Value = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -590,11 +592,33 @@ Partial Class Round1
         Me.TextBox2.Size = New System.Drawing.Size(100, 20)
         Me.TextBox2.TabIndex = 56
         '
+        'ValuePercent
+        '
+        Me.ValuePercent.AutoSize = True
+        Me.ValuePercent.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ValuePercent.Location = New System.Drawing.Point(100, 173)
+        Me.ValuePercent.Name = "ValuePercent"
+        Me.ValuePercent.Size = New System.Drawing.Size(45, 37)
+        Me.ValuePercent.TabIndex = 57
+        Me.ValuePercent.Text = "%"
+        '
+        'Value
+        '
+        Me.Value.AutoSize = True
+        Me.Value.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Value.Location = New System.Drawing.Point(35, 173)
+        Me.Value.Name = "Value"
+        Me.Value.Size = New System.Drawing.Size(35, 37)
+        Me.Value.TabIndex = 58
+        Me.Value.Text = "0"
+        '
         'Round1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1264, 681)
+        Me.Controls.Add(Me.Value)
+        Me.Controls.Add(Me.ValuePercent)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.AddScore3)
@@ -722,4 +746,6 @@ Partial Class Round1
     Friend WithEvents AddScore3 As Button
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents ValuePercent As Label
+    Friend WithEvents Value As Label
 End Class

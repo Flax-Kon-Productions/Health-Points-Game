@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class StartScreen
+Partial Class OpeningScreen
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -77,7 +77,7 @@ Partial Class StartScreen
         Me.Player3.TabIndex = 4
         Me.Player3.Text = "Player3"
         '
-        'StartScreen
+        'OpeningScreen
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -87,7 +87,7 @@ Partial Class StartScreen
         Me.Controls.Add(Me.Player1)
         Me.Controls.Add(Me.LoadRound1)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Name = "StartScreen"
+        Me.Name = "OpeningScreen"
         Me.Text = "Opening Screen"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)

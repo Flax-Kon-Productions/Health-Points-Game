@@ -73,17 +73,24 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="StartScreen.vb">
+    <Compile Include="EnterPlayers.Designer.vb">
+      <DependentUpon>EnterPlayers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EnterPlayers.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StartScreen.Designer.vb">
-      <DependentUpon>StartScreen.vb</DependentUpon>
+    <Compile Include="OpeningScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpeningScreen.Designer.vb">
+      <DependentUpon>OpeningScreen.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -101,19 +108,31 @@
     <Compile Include="Round1.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Round2.Designer.vb">
+      <DependentUpon>Round2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Round2.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="EnterPlayers.resx">
+      <DependentUpon>EnterPlayers.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Round1.resx">
       <DependentUpon>Round1.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="StartScreen.resx">
-      <DependentUpon>StartScreen.vb</DependentUpon>
+    <EmbeddedResource Include="OpeningScreen.resx">
+      <DependentUpon>OpeningScreen.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Round2.resx">
+      <DependentUpon>Round2.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
