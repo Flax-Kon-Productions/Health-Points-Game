@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Round1
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,9 +20,24 @@ Partial Class Round1
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.Player3 = New System.Windows.Forms.Label()
+        Me.Player2 = New System.Windows.Forms.Label()
+        Me.Player1 = New System.Windows.Forms.Label()
+        Me.LoadRound2 = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Dollar1 = New System.Windows.Forms.Label()
+        Me.Health1 = New System.Windows.Forms.Label()
+        Me.Cash2 = New System.Windows.Forms.Label()
+        Me.Health2 = New System.Windows.Forms.Label()
+        Me.Cash3 = New System.Windows.Forms.Label()
+        Me.Health3 = New System.Windows.Forms.Label()
+        Me.Dollar3 = New System.Windows.Forms.Label()
+        Me.Dollar2 = New System.Windows.Forms.Label()
+        Me.Cash1 = New System.Windows.Forms.Label()
+        Me.GrandPrizeDollar = New System.Windows.Forms.Label()
+        Me.GrandPrize = New System.Windows.Forms.Label()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
@@ -38,14 +53,6 @@ Partial Class Round1
         Me.PictureBox14 = New System.Windows.Forms.PictureBox()
         Me.PictureBox15 = New System.Windows.Forms.PictureBox()
         Me.PictureBox16 = New System.Windows.Forms.PictureBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
-        Me.Button8 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -64,236 +71,288 @@ Partial Class Round1
         CType(Me.PictureBox16, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
+        'Player3
+        '
+        Me.Player3.AutoSize = True
+        Me.Player3.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Player3.Location = New System.Drawing.Point(965, 420)
+        Me.Player3.Name = "Player3"
+        Me.Player3.Size = New System.Drawing.Size(124, 37)
+        Me.Player3.TabIndex = 9
+        Me.Player3.Text = "Player3"
+        '
+        'Player2
+        '
+        Me.Player2.AutoSize = True
+        Me.Player2.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Player2.Location = New System.Drawing.Point(561, 420)
+        Me.Player2.Name = "Player2"
+        Me.Player2.Size = New System.Drawing.Size(124, 37)
+        Me.Player2.TabIndex = 8
+        Me.Player2.Text = "Player2"
+        '
+        'Player1
+        '
+        Me.Player1.AutoSize = True
+        Me.Player1.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Player1.Location = New System.Drawing.Point(176, 420)
+        Me.Player1.Name = "Player1"
+        Me.Player1.Size = New System.Drawing.Size(122, 37)
+        Me.Player1.TabIndex = 7
+        Me.Player1.Text = "Player1"
+        '
+        'LoadRound2
+        '
+        Me.LoadRound2.Location = New System.Drawing.Point(427, 565)
+        Me.LoadRound2.Name = "LoadRound2"
+        Me.LoadRound2.Size = New System.Drawing.Size(527, 62)
+        Me.LoadRound2.TabIndex = 6
+        Me.LoadRound2.Text = "Load Round 2"
+        Me.LoadRound2.UseVisualStyleBackColor = True
+        '
         'PictureBox1
         '
-        Me.PictureBox1.Location = New System.Drawing.Point(126, 81)
+        Me.PictureBox1.Location = New System.Drawing.Point(211, 54)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(1012, 518)
-        Me.PictureBox1.TabIndex = 1
+        Me.PictureBox1.Size = New System.Drawing.Size(809, 325)
+        Me.PictureBox1.TabIndex = 5
         Me.PictureBox1.TabStop = False
-        Me.PictureBox1.Visible = False
+        '
+        'Dollar1
+        '
+        Me.Dollar1.AutoSize = True
+        Me.Dollar1.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Dollar1.Location = New System.Drawing.Point(59, 475)
+        Me.Dollar1.Name = "Dollar1"
+        Me.Dollar1.Size = New System.Drawing.Size(35, 37)
+        Me.Dollar1.TabIndex = 10
+        Me.Dollar1.Text = "$"
+        '
+        'Health1
+        '
+        Me.Health1.AutoSize = True
+        Me.Health1.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Health1.Location = New System.Drawing.Point(253, 475)
+        Me.Health1.Name = "Health1"
+        Me.Health1.Size = New System.Drawing.Size(63, 37)
+        Me.Health1.TabIndex = 11
+        Me.Health1.Text = "0%"
+        '
+        'Cash2
+        '
+        Me.Cash2.AutoSize = True
+        Me.Cash2.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Cash2.Location = New System.Drawing.Point(482, 475)
+        Me.Cash2.Name = "Cash2"
+        Me.Cash2.Size = New System.Drawing.Size(35, 37)
+        Me.Cash2.TabIndex = 12
+        Me.Cash2.Text = "0"
+        '
+        'Health2
+        '
+        Me.Health2.AutoSize = True
+        Me.Health2.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Health2.Location = New System.Drawing.Point(672, 475)
+        Me.Health2.Name = "Health2"
+        Me.Health2.Size = New System.Drawing.Size(63, 37)
+        Me.Health2.TabIndex = 13
+        Me.Health2.Text = "0%"
+        '
+        'Cash3
+        '
+        Me.Cash3.AutoSize = True
+        Me.Cash3.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Cash3.Location = New System.Drawing.Point(891, 475)
+        Me.Cash3.Name = "Cash3"
+        Me.Cash3.Size = New System.Drawing.Size(35, 37)
+        Me.Cash3.TabIndex = 14
+        Me.Cash3.Text = "0"
+        '
+        'Health3
+        '
+        Me.Health3.AutoSize = True
+        Me.Health3.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Health3.Location = New System.Drawing.Point(1050, 475)
+        Me.Health3.Name = "Health3"
+        Me.Health3.Size = New System.Drawing.Size(63, 37)
+        Me.Health3.TabIndex = 15
+        Me.Health3.Text = "0%"
+        '
+        'Dollar3
+        '
+        Me.Dollar3.AutoSize = True
+        Me.Dollar3.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Dollar3.Location = New System.Drawing.Point(850, 475)
+        Me.Dollar3.Name = "Dollar3"
+        Me.Dollar3.Size = New System.Drawing.Size(35, 37)
+        Me.Dollar3.TabIndex = 16
+        Me.Dollar3.Text = "$"
+        '
+        'Dollar2
+        '
+        Me.Dollar2.AutoSize = True
+        Me.Dollar2.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Dollar2.Location = New System.Drawing.Point(441, 475)
+        Me.Dollar2.Name = "Dollar2"
+        Me.Dollar2.Size = New System.Drawing.Size(35, 37)
+        Me.Dollar2.TabIndex = 17
+        Me.Dollar2.Text = "$"
+        '
+        'Cash1
+        '
+        Me.Cash1.AutoSize = True
+        Me.Cash1.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Cash1.Location = New System.Drawing.Point(100, 475)
+        Me.Cash1.Name = "Cash1"
+        Me.Cash1.Size = New System.Drawing.Size(35, 37)
+        Me.Cash1.TabIndex = 18
+        Me.Cash1.Text = "0"
+        '
+        'GrandPrizeDollar
+        '
+        Me.GrandPrizeDollar.AutoSize = True
+        Me.GrandPrizeDollar.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GrandPrizeDollar.Location = New System.Drawing.Point(1058, 141)
+        Me.GrandPrizeDollar.Name = "GrandPrizeDollar"
+        Me.GrandPrizeDollar.Size = New System.Drawing.Size(35, 37)
+        Me.GrandPrizeDollar.TabIndex = 20
+        Me.GrandPrizeDollar.Text = "$"
+        '
+        'GrandPrize
+        '
+        Me.GrandPrize.AutoSize = True
+        Me.GrandPrize.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GrandPrize.Location = New System.Drawing.Point(1099, 141)
+        Me.GrandPrize.Name = "GrandPrize"
+        Me.GrandPrize.Size = New System.Drawing.Size(114, 37)
+        Me.GrandPrize.TabIndex = 19
+        Me.GrandPrize.Text = "100.00"
         '
         'PictureBox2
         '
-        Me.PictureBox2.Location = New System.Drawing.Point(126, 81)
+        Me.PictureBox2.Location = New System.Drawing.Point(211, 54)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(1012, 518)
-        Me.PictureBox2.TabIndex = 2
+        Me.PictureBox2.Size = New System.Drawing.Size(809, 325)
+        Me.PictureBox2.TabIndex = 21
         Me.PictureBox2.TabStop = False
-        Me.PictureBox2.Visible = False
         '
         'PictureBox3
         '
-        Me.PictureBox3.Location = New System.Drawing.Point(126, 81)
+        Me.PictureBox3.Location = New System.Drawing.Point(211, 54)
         Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(1012, 518)
-        Me.PictureBox3.TabIndex = 3
+        Me.PictureBox3.Size = New System.Drawing.Size(809, 325)
+        Me.PictureBox3.TabIndex = 22
         Me.PictureBox3.TabStop = False
-        Me.PictureBox3.Visible = False
         '
         'PictureBox4
         '
-        Me.PictureBox4.Location = New System.Drawing.Point(126, 81)
+        Me.PictureBox4.Location = New System.Drawing.Point(211, 54)
         Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(1012, 518)
-        Me.PictureBox4.TabIndex = 4
+        Me.PictureBox4.Size = New System.Drawing.Size(809, 325)
+        Me.PictureBox4.TabIndex = 23
         Me.PictureBox4.TabStop = False
-        Me.PictureBox4.Visible = False
         '
         'PictureBox5
         '
-        Me.PictureBox5.Location = New System.Drawing.Point(126, 81)
+        Me.PictureBox5.Location = New System.Drawing.Point(211, 54)
         Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(1012, 518)
-        Me.PictureBox5.TabIndex = 5
+        Me.PictureBox5.Size = New System.Drawing.Size(809, 325)
+        Me.PictureBox5.TabIndex = 24
         Me.PictureBox5.TabStop = False
-        Me.PictureBox5.Visible = False
         '
         'PictureBox6
         '
-        Me.PictureBox6.Location = New System.Drawing.Point(126, 81)
+        Me.PictureBox6.Location = New System.Drawing.Point(211, 54)
         Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(1012, 518)
-        Me.PictureBox6.TabIndex = 6
+        Me.PictureBox6.Size = New System.Drawing.Size(809, 325)
+        Me.PictureBox6.TabIndex = 25
         Me.PictureBox6.TabStop = False
-        Me.PictureBox6.Visible = False
         '
         'PictureBox7
         '
-        Me.PictureBox7.Location = New System.Drawing.Point(126, 81)
+        Me.PictureBox7.Location = New System.Drawing.Point(211, 54)
         Me.PictureBox7.Name = "PictureBox7"
-        Me.PictureBox7.Size = New System.Drawing.Size(1012, 518)
-        Me.PictureBox7.TabIndex = 7
+        Me.PictureBox7.Size = New System.Drawing.Size(809, 325)
+        Me.PictureBox7.TabIndex = 26
         Me.PictureBox7.TabStop = False
-        Me.PictureBox7.Visible = False
         '
         'PictureBox8
         '
-        Me.PictureBox8.Location = New System.Drawing.Point(126, 81)
+        Me.PictureBox8.Location = New System.Drawing.Point(211, 54)
         Me.PictureBox8.Name = "PictureBox8"
-        Me.PictureBox8.Size = New System.Drawing.Size(1012, 518)
-        Me.PictureBox8.TabIndex = 8
+        Me.PictureBox8.Size = New System.Drawing.Size(809, 325)
+        Me.PictureBox8.TabIndex = 27
         Me.PictureBox8.TabStop = False
-        Me.PictureBox8.Visible = False
         '
         'PictureBox9
         '
-        Me.PictureBox9.Location = New System.Drawing.Point(126, 81)
+        Me.PictureBox9.Location = New System.Drawing.Point(211, 54)
         Me.PictureBox9.Name = "PictureBox9"
-        Me.PictureBox9.Size = New System.Drawing.Size(1012, 518)
-        Me.PictureBox9.TabIndex = 9
+        Me.PictureBox9.Size = New System.Drawing.Size(809, 325)
+        Me.PictureBox9.TabIndex = 28
         Me.PictureBox9.TabStop = False
-        Me.PictureBox9.Visible = False
         '
         'PictureBox10
         '
-        Me.PictureBox10.Location = New System.Drawing.Point(126, 81)
+        Me.PictureBox10.Location = New System.Drawing.Point(211, 54)
         Me.PictureBox10.Name = "PictureBox10"
-        Me.PictureBox10.Size = New System.Drawing.Size(1012, 518)
-        Me.PictureBox10.TabIndex = 10
+        Me.PictureBox10.Size = New System.Drawing.Size(809, 325)
+        Me.PictureBox10.TabIndex = 29
         Me.PictureBox10.TabStop = False
-        Me.PictureBox10.Visible = False
         '
         'PictureBox11
         '
-        Me.PictureBox11.Location = New System.Drawing.Point(126, 81)
+        Me.PictureBox11.Location = New System.Drawing.Point(211, 54)
         Me.PictureBox11.Name = "PictureBox11"
-        Me.PictureBox11.Size = New System.Drawing.Size(1012, 518)
-        Me.PictureBox11.TabIndex = 11
+        Me.PictureBox11.Size = New System.Drawing.Size(809, 325)
+        Me.PictureBox11.TabIndex = 30
         Me.PictureBox11.TabStop = False
-        Me.PictureBox11.Visible = False
         '
         'PictureBox12
         '
-        Me.PictureBox12.Location = New System.Drawing.Point(126, 81)
+        Me.PictureBox12.Location = New System.Drawing.Point(211, 54)
         Me.PictureBox12.Name = "PictureBox12"
-        Me.PictureBox12.Size = New System.Drawing.Size(1012, 518)
-        Me.PictureBox12.TabIndex = 12
+        Me.PictureBox12.Size = New System.Drawing.Size(809, 325)
+        Me.PictureBox12.TabIndex = 31
         Me.PictureBox12.TabStop = False
-        Me.PictureBox12.Visible = False
         '
         'PictureBox13
         '
-        Me.PictureBox13.Location = New System.Drawing.Point(126, 81)
+        Me.PictureBox13.Location = New System.Drawing.Point(211, 54)
         Me.PictureBox13.Name = "PictureBox13"
-        Me.PictureBox13.Size = New System.Drawing.Size(1012, 518)
-        Me.PictureBox13.TabIndex = 13
+        Me.PictureBox13.Size = New System.Drawing.Size(809, 325)
+        Me.PictureBox13.TabIndex = 32
         Me.PictureBox13.TabStop = False
-        Me.PictureBox13.Visible = False
         '
         'PictureBox14
         '
-        Me.PictureBox14.Location = New System.Drawing.Point(126, 81)
+        Me.PictureBox14.Location = New System.Drawing.Point(211, 54)
         Me.PictureBox14.Name = "PictureBox14"
-        Me.PictureBox14.Size = New System.Drawing.Size(1012, 518)
-        Me.PictureBox14.TabIndex = 14
+        Me.PictureBox14.Size = New System.Drawing.Size(809, 325)
+        Me.PictureBox14.TabIndex = 33
         Me.PictureBox14.TabStop = False
-        Me.PictureBox14.Visible = False
         '
         'PictureBox15
         '
-        Me.PictureBox15.Location = New System.Drawing.Point(126, 81)
+        Me.PictureBox15.Location = New System.Drawing.Point(211, 54)
         Me.PictureBox15.Name = "PictureBox15"
-        Me.PictureBox15.Size = New System.Drawing.Size(1012, 518)
-        Me.PictureBox15.TabIndex = 15
+        Me.PictureBox15.Size = New System.Drawing.Size(809, 325)
+        Me.PictureBox15.TabIndex = 34
         Me.PictureBox15.TabStop = False
-        Me.PictureBox15.Visible = False
         '
         'PictureBox16
         '
-        Me.PictureBox16.Location = New System.Drawing.Point(126, 81)
+        Me.PictureBox16.Location = New System.Drawing.Point(211, 54)
         Me.PictureBox16.Name = "PictureBox16"
-        Me.PictureBox16.Size = New System.Drawing.Size(1012, 518)
-        Me.PictureBox16.TabIndex = 16
+        Me.PictureBox16.Size = New System.Drawing.Size(809, 325)
+        Me.PictureBox16.TabIndex = 35
         Me.PictureBox16.TabStop = False
-        Me.PictureBox16.Visible = False
-        '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(108, 81)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(253, 129)
-        Me.Button1.TabIndex = 17
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
-        'Button2
-        '
-        Me.Button2.Location = New System.Drawing.Point(367, 81)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(253, 129)
-        Me.Button2.TabIndex = 18
-        Me.Button2.Text = "Button2"
-        Me.Button2.UseVisualStyleBackColor = True
-        '
-        'Button3
-        '
-        Me.Button3.Location = New System.Drawing.Point(626, 81)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(253, 129)
-        Me.Button3.TabIndex = 19
-        Me.Button3.Text = "Button3"
-        Me.Button3.UseVisualStyleBackColor = True
-        '
-        'Button4
-        '
-        Me.Button4.Location = New System.Drawing.Point(885, 81)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(253, 129)
-        Me.Button4.TabIndex = 20
-        Me.Button4.Text = "Button4"
-        Me.Button4.UseVisualStyleBackColor = True
-        '
-        'Button5
-        '
-        Me.Button5.Location = New System.Drawing.Point(108, 216)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(253, 129)
-        Me.Button5.TabIndex = 21
-        Me.Button5.Text = "Button5"
-        Me.Button5.UseVisualStyleBackColor = True
-        '
-        'Button6
-        '
-        Me.Button6.Location = New System.Drawing.Point(367, 216)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(253, 129)
-        Me.Button6.TabIndex = 22
-        Me.Button6.Text = "Button6"
-        Me.Button6.UseVisualStyleBackColor = True
-        '
-        'Button7
-        '
-        Me.Button7.Location = New System.Drawing.Point(626, 216)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(253, 129)
-        Me.Button7.TabIndex = 23
-        Me.Button7.Text = "Button7"
-        Me.Button7.UseVisualStyleBackColor = True
-        '
-        'Button8
-        '
-        Me.Button8.Location = New System.Drawing.Point(885, 216)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(253, 129)
-        Me.Button8.TabIndex = 24
-        Me.Button8.Text = "Button8"
-        Me.Button8.UseVisualStyleBackColor = True
         '
         'Round1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1264, 681)
-        Me.Controls.Add(Me.Button8)
-        Me.Controls.Add(Me.Button7)
-        Me.Controls.Add(Me.Button6)
-        Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.PictureBox16)
         Me.Controls.Add(Me.PictureBox15)
         Me.Controls.Add(Me.PictureBox14)
@@ -309,6 +368,22 @@ Partial Class Round1
         Me.Controls.Add(Me.PictureBox4)
         Me.Controls.Add(Me.PictureBox3)
         Me.Controls.Add(Me.PictureBox2)
+        Me.Controls.Add(Me.GrandPrizeDollar)
+        Me.Controls.Add(Me.GrandPrize)
+        Me.Controls.Add(Me.Cash1)
+        Me.Controls.Add(Me.Dollar2)
+        Me.Controls.Add(Me.Dollar3)
+        Me.Controls.Add(Me.Health3)
+        Me.Controls.Add(Me.Cash3)
+        Me.Controls.Add(Me.Health2)
+        Me.Controls.Add(Me.Cash2)
+        Me.Controls.Add(Me.Health1)
+        Me.Controls.Add(Me.Dollar1)
+        Me.Controls.Add(Me.Player3)
+        Me.Controls.Add(Me.Player2)
+        Me.Controls.Add(Me.Player1)
+        Me.Controls.Add(Me.LoadRound2)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Name = "Round1"
         Me.Text = "Round 1"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -328,10 +403,26 @@ Partial Class Round1
         CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox16, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
+    Friend WithEvents Player3 As Label
+    Friend WithEvents Player2 As Label
+    Friend WithEvents Player1 As Label
+    Friend WithEvents LoadRound2 As Button
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Dollar1 As Label
+    Friend WithEvents Health1 As Label
+    Friend WithEvents Cash2 As Label
+    Friend WithEvents Health2 As Label
+    Friend WithEvents Cash3 As Label
+    Friend WithEvents Health3 As Label
+    Friend WithEvents Dollar3 As Label
+    Friend WithEvents Dollar2 As Label
+    Friend WithEvents Cash1 As Label
+    Friend WithEvents GrandPrizeDollar As Label
+    Friend WithEvents GrandPrize As Label
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents PictureBox4 As PictureBox
@@ -347,12 +438,4 @@ Partial Class Round1
     Friend WithEvents PictureBox14 As PictureBox
     Friend WithEvents PictureBox15 As PictureBox
     Friend WithEvents PictureBox16 As PictureBox
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Button5 As Button
-    Friend WithEvents Button6 As Button
-    Friend WithEvents Button7 As Button
-    Friend WithEvents Button8 As Button
 End Class
