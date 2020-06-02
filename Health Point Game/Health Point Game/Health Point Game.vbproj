@@ -114,6 +114,18 @@
     <Compile Include="Round2.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Round3.Designer.vb">
+      <DependentUpon>Round3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Round3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Round4.Designer.vb">
+      <DependentUpon>Round4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Round4.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="EnterPlayers.resx">
@@ -133,6 +145,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Round2.resx">
       <DependentUpon>Round2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Round3.resx">
+      <DependentUpon>Round3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Round4.resx">
+      <DependentUpon>Round4.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

@@ -50,7 +50,9 @@ Partial Class OpeningScreen
         'Player1
         '
         Me.Player1.AutoSize = True
+        Me.Player1.BackColor = System.Drawing.Color.Red
         Me.Player1.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Player1.ForeColor = System.Drawing.Color.White
         Me.Player1.Location = New System.Drawing.Point(113, 452)
         Me.Player1.Name = "Player1"
         Me.Player1.Size = New System.Drawing.Size(122, 37)
@@ -60,6 +62,7 @@ Partial Class OpeningScreen
         'Player2
         '
         Me.Player2.AutoSize = True
+        Me.Player2.BackColor = System.Drawing.Color.Yellow
         Me.Player2.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Player2.Location = New System.Drawing.Point(498, 452)
         Me.Player2.Name = "Player2"
@@ -70,7 +73,9 @@ Partial Class OpeningScreen
         'Player3
         '
         Me.Player3.AutoSize = True
+        Me.Player3.BackColor = System.Drawing.Color.Blue
         Me.Player3.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Player3.ForeColor = System.Drawing.Color.White
         Me.Player3.Location = New System.Drawing.Point(902, 452)
         Me.Player3.Name = "Player3"
         Me.Player3.Size = New System.Drawing.Size(124, 37)

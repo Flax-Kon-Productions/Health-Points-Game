@@ -22,9 +22,6 @@ Partial Class Round1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.Player3 = New System.Windows.Forms.Label()
-        Me.Player2 = New System.Windows.Forms.Label()
-        Me.Player1 = New System.Windows.Forms.Label()
         Me.LoadRound2 = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Dollar1 = New System.Windows.Forms.Label()
@@ -72,10 +69,13 @@ Partial Class Round1
         Me.AddScore1 = New System.Windows.Forms.Button()
         Me.AddScore2 = New System.Windows.Forms.Button()
         Me.AddScore3 = New System.Windows.Forms.Button()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.Buzzer1 = New System.Windows.Forms.TextBox()
+        Me.Buzzer2 = New System.Windows.Forms.TextBox()
         Me.ValuePercent = New System.Windows.Forms.Label()
         Me.Value = New System.Windows.Forms.Label()
+        Me.Player3 = New System.Windows.Forms.Label()
+        Me.Player2 = New System.Windows.Forms.Label()
+        Me.Player1 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -93,36 +93,6 @@ Partial Class Round1
         CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox16, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'Player3
-        '
-        Me.Player3.AutoSize = True
-        Me.Player3.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Player3.Location = New System.Drawing.Point(965, 420)
-        Me.Player3.Name = "Player3"
-        Me.Player3.Size = New System.Drawing.Size(124, 37)
-        Me.Player3.TabIndex = 9
-        Me.Player3.Text = "Player3"
-        '
-        'Player2
-        '
-        Me.Player2.AutoSize = True
-        Me.Player2.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Player2.Location = New System.Drawing.Point(561, 420)
-        Me.Player2.Name = "Player2"
-        Me.Player2.Size = New System.Drawing.Size(124, 37)
-        Me.Player2.TabIndex = 8
-        Me.Player2.Text = "Player2"
-        '
-        'Player1
-        '
-        Me.Player1.AutoSize = True
-        Me.Player1.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Player1.Location = New System.Drawing.Point(176, 420)
-        Me.Player1.Name = "Player1"
-        Me.Player1.Size = New System.Drawing.Size(122, 37)
-        Me.Player1.TabIndex = 7
-        Me.Player1.Text = "Player1"
         '
         'LoadRound2
         '
@@ -578,19 +548,19 @@ Partial Class Round1
         Me.AddScore3.Text = "Add Score 3"
         Me.AddScore3.UseVisualStyleBackColor = True
         '
-        'TextBox1
+        'Buzzer1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(42, 74)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox1.TabIndex = 55
+        Me.Buzzer1.Location = New System.Drawing.Point(42, 74)
+        Me.Buzzer1.Name = "Buzzer1"
+        Me.Buzzer1.Size = New System.Drawing.Size(100, 20)
+        Me.Buzzer1.TabIndex = 55
         '
-        'TextBox2
+        'Buzzer2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(42, 113)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox2.TabIndex = 56
+        Me.Buzzer2.Location = New System.Drawing.Point(42, 113)
+        Me.Buzzer2.Name = "Buzzer2"
+        Me.Buzzer2.Size = New System.Drawing.Size(100, 20)
+        Me.Buzzer2.TabIndex = 56
         '
         'ValuePercent
         '
@@ -612,15 +582,53 @@ Partial Class Round1
         Me.Value.TabIndex = 58
         Me.Value.Text = "0"
         '
+        'Player3
+        '
+        Me.Player3.AutoSize = True
+        Me.Player3.BackColor = System.Drawing.Color.Blue
+        Me.Player3.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Player3.ForeColor = System.Drawing.Color.White
+        Me.Player3.Location = New System.Drawing.Point(936, 416)
+        Me.Player3.Name = "Player3"
+        Me.Player3.Size = New System.Drawing.Size(124, 37)
+        Me.Player3.TabIndex = 61
+        Me.Player3.Text = "Player3"
+        '
+        'Player2
+        '
+        Me.Player2.AutoSize = True
+        Me.Player2.BackColor = System.Drawing.Color.Yellow
+        Me.Player2.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Player2.Location = New System.Drawing.Point(532, 416)
+        Me.Player2.Name = "Player2"
+        Me.Player2.Size = New System.Drawing.Size(124, 37)
+        Me.Player2.TabIndex = 60
+        Me.Player2.Text = "Player2"
+        '
+        'Player1
+        '
+        Me.Player1.AutoSize = True
+        Me.Player1.BackColor = System.Drawing.Color.Red
+        Me.Player1.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Player1.ForeColor = System.Drawing.Color.White
+        Me.Player1.Location = New System.Drawing.Point(147, 416)
+        Me.Player1.Name = "Player1"
+        Me.Player1.Size = New System.Drawing.Size(122, 37)
+        Me.Player1.TabIndex = 59
+        Me.Player1.Text = "Player1"
+        '
         'Round1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1264, 681)
+        Me.Controls.Add(Me.Player3)
+        Me.Controls.Add(Me.Player2)
+        Me.Controls.Add(Me.Player1)
         Me.Controls.Add(Me.Value)
         Me.Controls.Add(Me.ValuePercent)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.Buzzer2)
+        Me.Controls.Add(Me.Buzzer1)
         Me.Controls.Add(Me.AddScore3)
         Me.Controls.Add(Me.AddScore2)
         Me.Controls.Add(Me.AddScore1)
@@ -651,9 +659,6 @@ Partial Class Round1
         Me.Controls.Add(Me.Cash2)
         Me.Controls.Add(Me.Health1)
         Me.Controls.Add(Me.Dollar1)
-        Me.Controls.Add(Me.Player3)
-        Me.Controls.Add(Me.Player2)
-        Me.Controls.Add(Me.Player1)
         Me.Controls.Add(Me.LoadRound2)
         Me.Controls.Add(Me.PictureBox16)
         Me.Controls.Add(Me.PictureBox15)
@@ -693,10 +698,6 @@ Partial Class Round1
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents Player3 As Label
-    Friend WithEvents Player2 As Label
-    Friend WithEvents Player1 As Label
     Friend WithEvents LoadRound2 As Button
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Dollar1 As Label
@@ -744,8 +745,11 @@ Partial Class Round1
     Friend WithEvents AddScore1 As Button
     Friend WithEvents AddScore2 As Button
     Friend WithEvents AddScore3 As Button
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents Buzzer1 As TextBox
+    Friend WithEvents Buzzer2 As TextBox
     Friend WithEvents ValuePercent As Label
     Friend WithEvents Value As Label
+    Friend WithEvents Player3 As Label
+    Friend WithEvents Player2 As Label
+    Friend WithEvents Player1 As Label
 End Class
